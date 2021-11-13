@@ -1,0 +1,72 @@
+body {
+    background-color: snow;
+    margin: 0%;
+}
+
+p {
+    color: darkslategray;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+h1 {
+    color: seagreen;
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+
+    display: block;
+    background-color: peachpuff;
+    width: max-content;
+    padding: 15px;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+h2 {
+    color: rgb(255, 203, 158);
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+hr {
+    background-color: seagreen;
+    border: 0.1px solid seagreen;
+}
+
+table, td, tr {
+    border: 1px solid seagreen;
+    border-collapse: collapse;
+    vertical-align: top;
+}
+
+img {
+    padding: 10px;
+}
+
+iframe {
+    padding: 10px;
+}
+
+a {
+    color: slateblue;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+a:hover {
+    color: steelblue;
+}
+a:visited {
+    color: orange;
+}
+a:active {
+    color: hotpink;
+}
