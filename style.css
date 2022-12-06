@@ -56,3 +56,8 @@ a:hover {
 a:active {
     color: #ffffff;
 }
+
+.block {
+    float: left;
+    padding-bottom: 10px;
+}
