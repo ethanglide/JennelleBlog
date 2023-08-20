@@ -1,75 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="Pictures/thedeer.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethan's Github</title>
-</head>
-
-<body>
-    <a href="https://github.com/ethanglide" target="_blank"><img src="Pictures/github.png" alt="github logo" style="float: right; width: 50px; margin-top: 50px;"></a>
-    <a href="https://www.linkedin.com/in/ethan-cook-76b9b81a5/" target="_blank"><img src="Pictures/linkedin.png" alt="linkedin logo" style="float: right; width: 50px; margin-top: 50px;"></a>
-    <a href=""><img src="Pictures/gmail.png" alt="gmail logo" style="float: right; width: 50px; margin-top: 57px;" onclick="window.alert('My email address is ecook2489@gmail.com')"></a>
-    <img src="Pictures/thedeer.ico" alt="my profile picture" style="width: 100px; float: left; margin-top: 45px;">
-    <h1 style="text-decoration: underline;">Ethan Cook</h1>
-
-    <h2>My Programming Languages</h2>
-    <div style="float: left; padding-right: 10px;">
-        <img src="Pictures/c.png" alt="C Logo" style="width: 100px;">
-        <img src="Pictures/csharp.png" alt="C# Logo" style="width: 100px;">
-        <br>
-        <img src="Pictures/python.webp" alt="Python Logo" style="width: 100px;">
-        <img src="Pictures/java.png" alt="Java Logo" style="width: 100px;">
-        <br>
-    </div>
-    <p><span class="bold">• C:</span> I've been coding in this language since 2018. Mostly for school related projects. In this language I learned most of my essential skills in programming. Functional programming, abstract data types such as Linked Lists, Binary Search Trees, Stacks, etc. I learned about recursion, memory models, pointers, sorting algorithms, and more.</p>
-    <p><span class="bold">• C#:</span> My personal favourite language. I have been using this one since 2019 and have done a lot with it. This language introduced me to object oriented programming and had me go much more in depth with APIs and documentation. I have made Windows Forms Apps with Visual Studio like the polynomial factorer, and I have programmed 3D video games with Unity using their API like the Telepuzzle game.</p>
-    <p><span class="bold">• Python:</span> Starting in 2018 this was my introduction to programming. This language is particularly important to me because it is what made me appreciate the simplicity of C so much more. Of course this language is the easiest to code in, but the syntactic sugar gets a little too sweet for me somtimes. However I am proficient with python and made things like discord bots using the discord.py API.</p>
-    <p><span class="bold">• Java:</span> Even though I've just started using this language in 2022 I have been using C# since 2019 and these languages are really quite similar. I learned this language for my Software Design class where we used Java to go more in depth with OOP, SOLID principles, Design Patterns, etc. My most notable project in Java is developing an android application.</p>
-    <p><span class="bold">• HTML/CSS/JS:</span> These languages are actually my introduction to coding as a whole. I've technically been using these languages since 2016. I've just made some simple websites like this one here.</p>
-    <br>
-    <h2>My Projects</h2>
-
-    <div class="block">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/HS9tsFQpMUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  style="float: left; padding-right: 15px;"></iframe>
-        <h2 class="sub">Cosmotica</h2>
-        <p>Cosmotica is the debut title of my indie game company<a href="https://twitter.com/MarbieGames" target="_blank">Marbie Games</a>. I worked as the director, programmer, UI/UX designer, and level designer on the game. It was developed in Unity and programmed in C#. The game features physics-based movement, an incredible soundtrack, 30 levels, a save feature that saves your settings and progress, and steam integration with in-game leaderboards and achievements.</p>
-        <p>Cosmotica can be found on its<a href="https://store.steampowered.com/app/2117410/Cosmotica/?curator_clanid=4777282&utm_source=SteamDB" target="_blank">steam page</a>.</p>
-    </div>
-
-    <div class="block">
-        <img src="Pictures/courseplanner.jpg" alt="course planner home screen" style="float: right; width: 15%;">
-        <h2 class="sub">UTSC Course Planner</h2>
-        <p>UTSC Course Planner was created as a university project in my Software Design class. It is an android application developed using Android Studio and Java to help UTSC students plan their courses. Simply specifcy which courses you have taken and which courses you want to take, and our app will provide you with a timetable.</p>
-        <p>This project was a collaborative effort of myself and four other students to work together using the Agile Scrum framework to create an app in a process that emulates the industry standard. The app was designed with SOLID principles in mind to be easily extendable and maintainable.</p>
-        <p>We used Google's Firebase Realtime Database and Authentication to store and sync our data across devices and to authenicate users.</p>
-        <p>Although each group member touched every part of the project at some point, my role in the project was largely Backend and Backend-UI integration. I created an API that communicated with the database to get the data needed so that integrating the backend to the UI would be a breeze and there would need to be little to no logic in the frontend.</p>
-    </div>
-
-    <div class="block">
-        <img src="Pictures/telepuzzle.png" alt="screenshot from my telepuzzle game" style="float: right; width: 35%;">
-        <h2 class="sub">Telepuzzle</h2>
-        <p>I made this game in Unity in around 4 days of work for the Unity Developer Community Game Jam. The theme was teleportation so I made a puzzle game where you are in a level trying to get to a seemingly unobtainable exit. However, you have a gun that can teleport objects around the level to solve the puzzles or make your own way out. The game has a good handful of levels that should not take very long to complete and it features a timer system for speedrunning. It's really fun to play around with the physics and try to break the game.</p>
-        <p>You can download the game at<a href="https://ethanglide.itch.io/telepuzzle1" target="_blank">itch.io</a> or view the source code of my scripts in<a href="https://github.com/ethanglide/telepuzzle-scripts" target="_blank">this github repository</a>.</p>
-    </div>
-
-    <div class="block">
-        <img src="Pictures/glidebot.png" alt="profile of my discord bot" style="float: left; width: 20%;">
-        <h2 class="sub">Discord Bot</h2>
-        <p>This bot was written in python using the discord.py API. I made it for fun just to test out and learn some more about python as well as asyncronous coroutines in code. This bot can do things like add numbers, roll dice, direct message users, kick users (and create invites to bring them back), and even knows ping pong. I have actually created a discord bot in C# as well using the DSharpPlus API, but the code for that bot was unfortunately lost. But that one could join into voice channels and stuff.</p>
-        <p>The source code for this bot can be found in<a href="https://github.com/ethanglide/glide-bot" target="_blank">this github repository</a>.</p>
-    </div>
-
-    <div class="block">
-        <img src="Pictures/polyfactor.png" alt="my polynomial factorer app" style="float: right; width: 40%;">
-        <h2 class="sub">Polynomial Factorer</h2>
-        <p>This Windows Forms App was coded using the C# .NET framework to help me with my math homework back in high school. You simply enter in the coefficients of your polynomial into the text box and the program will find the roots. This saved me so much time in math class because we would have to guess and check roots for higher-degree polynomials and that can take a while. Sure symbolab or wolfram alpha exists but I did not know this at the time and I learned a lot about OOP on my own coding this program.</p>
-        <p>The entire Visual Studio project for this can be found in<a href="https://github.com/ethanglide/polynomial-factorer" target="_blank">this github repository</a>.</p>
-
-        <br><br>
-        <p>If you would like to see more of my projects or get in contact with me, the top right corner of this webpage has links to my Github repositories, my LinkedIn profile, as well as my email address. <span class="bold">Thank you for visiting!</span></p>
-    </div>
-
-</body>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="Pictures/thedeer.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ethan's Github</title>
+    </head>
+    <body>
+        <main>
+            <div class="header">
+                <div class="profile-name">
+                    <img src="./Pictures/thedeer.ico" alt="Deer Profile Picture" class="profile-picture">
+                    <h1>Ethan Cook</h1>
+                </div>
+                <div class="social-media">
+                    <a href="mailto:ecook2489@gmail.com" target="_blank">
+                        <img src="./Pictures/gmail.png" alt="gmail logo" style="width: 3.7rem; border-radius: 0.4rem;">
+                    </a>
+                    <a href="https://www.linkedin.com/in/ethan-cook-76b9b81a5/" target="_blank">
+                        <img src="./Pictures/linkedin.png" alt="linkedin logo" style="border-radius: 0.25rem;">
+                    </a>
+                    <a href="https://github.com/ethanglide" target="_blank">
+                        <img src="./Pictures/github.png" alt="github logo" style="border-radius: 50%;">
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div>
+                    <div class="section">
+                        <h2>Programming Languages</h2>
+                        <div style="display: flex; flex-wrap: wrap; gap: 2rem;">
+                            <div class="languages-images">
+                                <img src="./Pictures/c.png" alt="c logo">
+                                <img src="./Pictures/csharp.png" alt="c# logo">
+                                <img src="./Pictures/python.webp" alt="python logo">
+                                <img src="./Pictures/java.png" alt="java logo">
+                                <img src="./Pictures/htmlcss.png" alt="html and css logo">
+                                <img src="./Pictures/javascript.png" alt="javascript logo" style="overflow: hidden; border-radius: 0.5rem;">
+                            </div>
+                            <div>
+                                <ul>
+                                    <li> C
+                                        <ul>
+                                            <li>Accomplishment 1
+                                                <ul>
+                                                    <li>Note 1</li>
+                                                    <li>Note 2</li>
+                                                </ul>
+                                            </li>
+                                            <li>Note 2</li>
+                                        </ul>
+                                    </li>
+                                    <li>C#</li>
+                                    <li>Python</li>
+                                    <li>Java</li>
+                                    <li>HTML & CSS</li>
+                                    <li>Javascript</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h2>Work Experience</h2>
+                        <div>
+                            <p>Hi</p>
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h2>Projects</h2>
+                    </div>
+                </div>      
+            </div>
+        </main>    
+    </body>
 </html>
