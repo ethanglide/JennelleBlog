@@ -13,10 +13,25 @@ main {
 p, h1, h2, h3, h4, h5, h6, li {
     color: #fff;
     font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
 }
 
 p, li {
     font-size: 1.5rem;
+}
+
+a {
+    color: #ae00d1;
+    text-decoration: none;
+    transition: all 0.1s ease-out 0s;
+}
+
+a:hover {
+    color: #c500ec;
+}
+
+a:active {
+    color: #d400ff;
 }
 
 div.header {
@@ -56,7 +71,7 @@ div.social-media {
 div.social-media a img {
     width: 3rem;
     height: 3rem;
-    transition: box-shadow 0.25s ease-out 0s;
+    transition: box-shadow 0.2s ease-out 0s;
 }
 
 div.social-media a:hover img {
@@ -103,17 +118,143 @@ div.section h2 {
 }
 
 div.languages-images {
+    width: 15%;
+}
+
+div.languages-images div {
     display: grid;
-    grid-template-columns: repeat(2, 6rem);
-    grid-template-rows: repeat(3, 6rem);
+    grid-template-columns: repeat(2, 50%);
     gap: 1rem;
 }
 
 div.languages-images img {
     width: 100%;
     height: 100%;
+    border: #00000000 0.15rem solid;
+    border-radius: 1rem;
+    transition: all 0.25s ease-out 0s;
+}
+
+div.languages-images img:hover {
+    border: #fff 0.15rem solid;
+    background-color: #5a5a5a;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    margin-top: 1rem;
 }
 
 li li {
     font-size: 90%;
+}
+
+div.advertience-wrapper {
+    width: 20%;
+    padding: 1rem;
+    min-width: 7rem;
+}
+
+div.advertience-wrapper > div {
+    position: relative;
+    width: 100%;
+    padding-bottom: 140%;
+}
+
+div.advertience-wrapper > div > img {
+    position: absolute;
+    top: -0.6rem;
+    left: -0.6rem;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0.6rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+div.jump-wrapper {
+    width: 20%;
+    min-width: 10rem;
+}
+
+div.jump-wrapper > div {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%;
+}
+
+div.jump-wrapper > div > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+div.cosmotica-wrapper {
+    width: 50%;
+    min-width: 20rem;
+}
+
+div.cosmotica-wrapper > div {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+div.cosmotica-wrapper > div > iframe, div.cosmotica-wrapper > div > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+div.course-planner-wrapper {
+    width: 1%;
+    min-width: 10rem;
+}
+
+div.course-planner-wrapper > div {
+    position: relative;
+    width: 100%;
+    padding-bottom: 197%;
+}
+
+div.course-planner-wrapper > div > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+div.experience {
+    display: flex;
+    gap: 2rem;
+}
+
+div.experience > div {
+    flex-grow: 1;
+}
+
+div.experience-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
 }
