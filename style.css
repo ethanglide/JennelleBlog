@@ -262,6 +262,7 @@ div.experience-text {
 
 div.experience-header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -283,7 +284,7 @@ div.experience-header {
     }
 
     div.profile-name h1 {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
     }
 
     div.social-media {
@@ -315,6 +316,7 @@ div.experience-header {
 
     div.cosmotica-wrapper {
         width: 100%;
+        min-width: 0;
     }
 
     .large-list li {
