@@ -74,6 +74,13 @@ div.social-media a img {
     transition: box-shadow 0.2s ease-out 0s;
 }
 
+div.social-media a img[src="./Pictures/gmail.png"] {
+    width: 3.7rem;
+    height: 3rem;
+    border-radius: 0.4rem;
+    transition: box-shadow 0.2s ease-out 0s;
+}
+
 div.social-media a:hover img {
     box-shadow: 0 20px 25px -5px rgb(255 255 255 / 0.1);
 }
@@ -246,9 +253,10 @@ div.course-planner-wrapper > div > img {
 div.experience {
     display: flex;
     gap: 2rem;
+    flex-wrap: nowrap;
 }
 
-div.experience > div {
+div.experience-text {
     flex-grow: 1;
 }
 
@@ -257,4 +265,59 @@ div.experience-header {
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
+}
+
+.large-list li {
+    font-size: 2rem;
+}
+
+@media only screen and (max-device-width: 700px) {
+    div.profile-name {
+        gap: 0.8rem;
+        height: 3rem;
+    }
+
+    div.profile-name img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    div.profile-name h1 {
+        font-size: 1.7rem;
+    }
+
+    div.social-media {
+        gap: 1rem;
+    }
+
+    div.social-media a img {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    div.social-media a img[src="./Pictures/gmail.png"] {
+        width: 2.5rem;
+        height: 2rem;
+        border-radius: 0.2rem;
+    }
+
+    div.experience {
+        flex-flow: column;
+    }
+
+    div.languages-images {
+        width: 100%;
+    }
+
+    div.languages-images div {
+        grid-template-columns: repeat(3, 33%);
+    }
+
+    div.cosmotica-wrapper {
+        width: 100%;
+    }
+
+    .large-list li {
+        font-size: 1.5rem;
+    }
 }
