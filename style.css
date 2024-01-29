@@ -207,18 +207,18 @@ div.jump-wrapper > div > img {
     border-radius: 1rem;
 }
 
-div.cosmotica-wrapper {
+div.youtube-wrapper {
     width: 50%;
     max-width: 20rem;
 }
 
-div.cosmotica-wrapper > div {
+div.youtube-wrapper > div {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
 }
 
-div.cosmotica-wrapper > div > iframe, div.cosmotica-wrapper > div > img {
+div.youtube-wrapper > div > iframe, div.youtube-wrapper > div > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -241,28 +241,6 @@ div.course-planner-wrapper > div {
 }
 
 div.course-planner-wrapper > div > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 0.5rem;
-}
-
-div.solitude-wrapper {
-    width: 10%;
-    min-width: 12rem;
-}
-
-div.solitude-wrapper > div {
-    position: relative;
-    width: 100%;
-    padding-bottom: 100%;
-}
-
-div.solitude-wrapper > div > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -337,7 +315,7 @@ div.experience-header {
         grid-template-columns: repeat(3, min(33%));
     }
 
-    div.cosmotica-wrapper {
+    div.youtube-wrapper {
         width: 100%;
         min-width: 0;
     }
