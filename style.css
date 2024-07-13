@@ -185,18 +185,18 @@ div.advertience-wrapper > div > img {
     border-radius: 1rem;
 }
 
-div.jump-wrapper {
+div.square-wrapper {
     width: 20%;
     max-width: 10rem;
 }
 
-div.jump-wrapper > div {
+div.square-wrapper > div {
     position: relative;
     width: 100%;
     padding-bottom: 100%;
 }
 
-div.jump-wrapper > div > img {
+div.square-wrapper > div > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -207,18 +207,18 @@ div.jump-wrapper > div > img {
     border-radius: 1rem;
 }
 
-div.youtube-wrapper {
+div.rectangular-wrapper {
     width: 50%;
     max-width: 20rem;
 }
 
-div.youtube-wrapper > div {
+div.rectangular-wrapper > div {
     position: relative;
     width: 100%;
     padding-bottom: 56.25%;
 }
 
-div.youtube-wrapper > div > iframe, div.youtube-wrapper > div > img {
+div.rectangular-wrapper > div > iframe, div.rectangular-wrapper > div > img {
     position: absolute;
     top: 0;
     left: 0;
@@ -315,7 +315,7 @@ div.experience-header {
         grid-template-columns: repeat(3, min(33%));
     }
 
-    div.youtube-wrapper {
+    div.rectangular-wrapper, div.square-wrapper, div.advertience-wrapper {
         width: 100%;
         min-width: 0;
     }
